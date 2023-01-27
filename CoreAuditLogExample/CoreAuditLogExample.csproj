@@ -34,6 +34,7 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Models\" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Service\2rrrc3hd.i0b~" />
     <None Remove="Utils\" />
     <None Remove="Enums\" />
     <None Remove="Newtonsoft.Json" />

@@ -9,7 +9,7 @@ namespace CoreAuditLogExample.Models
 	{
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\\Kabali;Database=nasiltamiredilir;Integrated Security=True\");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\Kabali;Database=CoreAuditLogExample;Integrated Security=True;");
             base.OnConfiguring(optionsBuilder);
         }
 

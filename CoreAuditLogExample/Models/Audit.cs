@@ -13,6 +13,6 @@ namespace CoreAuditLogExample.Models
         public string AffectedColumns { get; set; }
         public string PrimaryKey { get; set; }
     }
-	}
+	
 }
 
