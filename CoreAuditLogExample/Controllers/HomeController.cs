@@ -24,6 +24,7 @@ namespace CoreAuditLogExample.Controllers
             return View();
         }
 
+        [HttpGet("[action]")]
         public IActionResult ProductAdd()
         {
             var product = new Product
@@ -34,21 +35,22 @@ namespace CoreAuditLogExample.Controllers
                 
             };
             _productService.Add(product);
-            return View();
+            return Ok();
         }
 
+        [HttpPost("[action]")]
         public IActionResult ProductDelete(int id)
         {
             var product = _productService.Get(id);
             _productService.Delete(product);
-            return View();
+            return Ok();
         }
-
+        [HttpPost("[action]")]
         public IActionResult ProductUpdate(Product product)
         {
             product.LastModified = DateTime.Now;
             _productService.Update(product);
-            return View();
+            return Ok();
         }
 
 

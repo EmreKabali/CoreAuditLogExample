@@ -16,7 +16,6 @@ namespace CoreAuditLogExample.Models
         public override int SaveChanges()
         {
             BeforeSaveChanges();
-            //normal savechanges
             return base.SaveChanges();
         }
         public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
