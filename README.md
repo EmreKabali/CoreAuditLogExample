@@ -4,3 +4,7 @@ Audit Logging is a critical feature for any application, as it allows you to tra
 system events, and other relevant information.
 
 It's also important to include the user CRUD process informations.
+
+You can find an article about this below link in Turkish.
+
+https://medium.com/@emrekabali/audit-log-kullan%C4%B1m%C4%B1-net-core-a5424cf9b5fe
